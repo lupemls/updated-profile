@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        /* sets the background image */
+        body {
+            background-image: url("assets/images/leather_1.png");
+        }
+        /* sets the content to take up a smaller portion of the screen on larger screens */
+        @media screen and (min-width: 576px) {
+            section {
+                width: 75%;
+                margin: auto;
+            }
+        }
+    </style> -->
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom mb-5">
+        <a class="navbar-brand px-4">
+            <div class="d-inline p-3 prime">
+                Matthew Shepardson
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <section class="p-3 border">
+        <h2 class="mb-3 pb-3">Contact</h2>
+        <!-- <p>Contact Me at lupemls@yahoo.com</p>
+        <p>Or at my number (503) 927-6099</p> -->
+        <div class="form-group">
+            <label for="exampleInputName">Name</label>
+            <input type="name" class="form-control" id="inputName" aria-describedby="nameHelp">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputName">Message</label>
+            <input type="message" class="form-control" id="inputMessage" aria-describedby="messageHelp">
+        </div>
+        <input class="btn btn-primary" type="submit" value="Submit">
+    </section>
+    <footer>
+        Contact me at lupemls@yahoo.com or at (503) 927-6099
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+/* sets the content to take up a smaller portion of the screen on larger screens */
+@media screen and (min-width: 576px) {
+    section {
+        width: 75%;
+        margin: auto;
+    }
+}
+
+
+body {
+    background-image: url("assets/images/footer_lodyas.png"); 
+}
+.external-link{
+    color: rgb(56, 140, 114);
+
+}
+footer{
+    background: rgb(22, 102, 104);
+    color: rgb(240, 232, 214);
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+h2{
+    border-bottom: solid 3px rgba(162, 49, 36, .7);
+}
+.link{
+    color: rgb(240, 232, 214);
+    padding: 10px;
+}
+.navbar{
+    background: rgb(22, 102, 104);
+}
+.prime, .d-block{
+    background: rgb(56, 140, 114);
+    color: rgb(240, 232, 214);
+}
+section{
+    background: rgb(240, 232, 214);
+    color: rgb(56, 140, 114);
+}
