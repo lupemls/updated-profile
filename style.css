@@ -12,7 +12,7 @@ body {
 }
 .external-link{
     color: rgb(56, 140, 114);
-
+    font-weight: bold;
 }
 footer{
     background: rgb(22, 102, 104);
